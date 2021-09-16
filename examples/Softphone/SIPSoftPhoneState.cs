@@ -33,12 +33,12 @@ namespace SIPSorcery.SoftPhone
         public static readonly XmlNode SIPSocketsNode;
         public static readonly string STUNServerHostname;
 
-        public static readonly string SIPUsername = ConfigurationManager.AppSettings["SIPUsername"];    // Get the SIP username from the config file.
-        public static readonly string SIPPassword = ConfigurationManager.AppSettings["SIPPassword"];    // Get the SIP password from the config file.
-        public static readonly string SIPServer = ConfigurationManager.AppSettings["SIPServer"];        // Get the SIP server from the config file.
-        public static readonly string SIPFromName = ConfigurationManager.AppSettings["SIPFromName"];    // Get the SIP From display name from the config file.
-        public static readonly bool UseAudioScope = Boolean.Parse(ConfigurationManager.AppSettings["UseAudioScope"]);
-        public static int AudioOutDeviceIndex = Int32.Parse(ConfigurationManager.AppSettings["AudioOutDeviceIndex"]);
+        public static readonly string SIPUsername = "66";    // Get the SIP username from the config file.
+        public static readonly string SIPPassword = "66qwe";    // Get the SIP password from the config file.
+        public static readonly string SIPServer = "192.168.10.59";        // Get the SIP server from the config file.
+        public static readonly string SIPFromName = "66";    // Get the SIP From display name from the config file.
+        public static readonly bool UseAudioScope = false;
+        public static int AudioOutDeviceIndex = -1;
 
         public static IPAddress PublicIPAddress;
 

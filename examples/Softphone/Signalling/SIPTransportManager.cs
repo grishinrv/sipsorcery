@@ -81,6 +81,7 @@ namespace SIPSorcery.SoftPhone
 
                     // Configure the SIP transport layer.
                     SIPTransport = new SIPTransport();
+                    SIPTransport.ContactHost = "192.168.11.164";
                     bool sipChannelAdded = false;
 
                     if (m_sipSocketsNode != null)
